@@ -10,7 +10,7 @@ export default {
     };
   },
   mounted() {
-    this.getproject();
+    this.getProject();
   },
   methods: {
     getProject() {
@@ -25,9 +25,9 @@ export default {
 
 <template>
   <div class="container">
-    <div class="col-4">
+    <div class="row row-col-3">
       <div class="col" v-for="project in projects" :key="'project.id'">
-      <div class="card">
+      <div>
         <h5>{{ project.title }}</h5>
       </div> 
     </div>
