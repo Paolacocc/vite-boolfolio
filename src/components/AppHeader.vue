@@ -11,6 +11,14 @@ export default {
                 {
                     label: "Projects",
                     routeName: "projects"
+                },
+                {
+                    label: "About us",
+                    routeName: "about"
+                },
+                {
+                    label: "Contact us",
+                    routeName: "contact"
                 }
             ]
         }
