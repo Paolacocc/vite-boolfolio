@@ -45,6 +45,9 @@ export default {
         <div class="container">
             <h2 class="text-center m-4">Projects list</h2>
 
+            <div class="text-end m-2">
+                    We found {{ totalProjects }} projects
+                </div>
             <div class="row row-col-4 g-4">
                 <div class="col" v-for="project in projects" :key="'project.id'">
                     <div class="card h-100 p-3">
